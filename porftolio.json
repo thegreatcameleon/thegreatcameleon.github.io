@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Dashboard voor retailbedrijf",
+        "description": "Interactief verkoopdashboard met realtime data.",
+        "image": "images/dashboard.jpg",
+        "link": "https://voorbeeld.com/dashboard"
+    },
+    {
+        "title": "AI-voorspellingsmodel",
+        "description": "Machine learning model dat vraag voorspelt.",
+        "image": "images/ai-model.jpg",
+        "link": "https://voorbeeld.com/ai"
+    },
+    {
+        "title": "Datamigratie ERP-systeem",
+        "description": "Succesvolle migratie naar nieuw ERP-systeem zonder downtime.",
+        "image": "images/migratie.jpg",
+        "link": "https://voorbeeld.com/migratie"
+    }
+]

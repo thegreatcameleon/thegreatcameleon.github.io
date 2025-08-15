@@ -297,6 +297,7 @@ strong {
 }
 
 .custom-link {
+  color: white;
 	background-color: var(--primary-color);
 }
 

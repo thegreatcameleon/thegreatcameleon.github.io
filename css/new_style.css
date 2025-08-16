@@ -729,6 +729,9 @@ strong {
 /*---------------------------------------
   PROJECTS              
 -----------------------------------------*/
+.random {
+  background-color: red;
+}
 .projects-thumb {
   background: var(--section-bg-color);
   border: 2px solid var(--white-color);

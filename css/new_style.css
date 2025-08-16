@@ -826,7 +826,7 @@ strong {
   background: var(--primary-color);
   box-shadow: none;
   border: 2px solid var(--border-color);
-  color: var(--p-color);
+  color: var(--white-color);
   margin-bottom: 24px;
   padding-top: 13px;
   padding-bottom: 13px;
@@ -834,7 +834,7 @@ strong {
 }
 
 .form-floating>label {
-  color: var(--p-color);
+  color: var(--primary-color);
 }
 
 .form-check-inline {
@@ -886,22 +886,14 @@ strong {
 .custom-form .form-control:hover,
 .custom-form .form-control:focus {
   background: transparent;
-  border-color: var(--secondary-color);
+  border-color: var(--primary-color);
+  color:var(--primary-color);
 }
 
 .custom-form .form-floating textarea {
   height: 150px;
 }
 
-.custom-form button[type="submit"] {
-  background: var(--secondary-color);
-  border: none;
-  border-radius: var(--border-radius-large);
-  color: var(--white-color);
-  font-weight: var(--font-weight-bold);
-  transition: all 0.3s;
-  margin-bottom: 0;
-}
 
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {

@@ -641,7 +641,7 @@ strong {
 .featured {
   background: var(--section-bg-color);
   border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--primary-color);
 }
 
 .services-thumb {
@@ -825,9 +825,12 @@ strong {
  SKILL SECTION 
  --------------------------------------- */
 .skills {
-  background: var(--section-bg-color);
-  border-top: 1px solid var(--border-color);
-  border-bottom: 1px solid var(--border-color);
+  /* background: var(--section-bg-color); */
+  background: linear-gradient(var(--primary-color) 40%, var(--white-color));
+  clip-path: polygon(0 40px, 100% 0, 100% 100%, 0 100%);
+
+  border-top: 1px solid var(--primary-color);
+  border-bottom: 1px solid var(--white-color);
 }
 
 .skills-card {

@@ -92,7 +92,6 @@ h4 {
 
 h5 {
   font-size: var(--h5-font-size);
-  line-height: normal;
 }
 
 h6 {
@@ -1262,3 +1261,7 @@ strong {
   }
 }
 
+
+.about-header {
+  padding-bottom: 0;
+}
